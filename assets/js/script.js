@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
   });
   document.querySelectorAll('.more-btn').forEach(b=>{
     b.addEventListener('click', ()=>{
-      window.open('https://t.me/your_channel', '_blank');
+      window.open('https://t.me/rko_partnerr', '_blank');
     });
   });
 });
