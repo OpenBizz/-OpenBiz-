@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
   document.querySelectorAll('.open-btn').forEach(b=>{
     b.addEventListener('click', ()=>{
       const partner = b.dataset.partner || 'partner';
-      window.open('https://partner.example.com/' + encodeURIComponent(partner), '_blank');
+      window.open('https://sovcombank.ru/business/' + encodeURIComponent(partner), '_blank');
     });
   });
   document.querySelectorAll('.more-btn').forEach(b=>{
