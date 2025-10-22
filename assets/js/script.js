@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function(){
   document.querySelectorAll('.open-btn').forEach(b=>{
     b.addEventListener('click', ()=>{
       const partner = b.dataset.partner || 'partner';
-      window.open('' + encodeURIComponent(partner), '_blank');
     });
   });
   document.querySelectorAll('.more-btn').forEach(b=>{
